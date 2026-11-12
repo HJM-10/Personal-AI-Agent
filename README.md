@@ -41,4 +41,4 @@ Run `python app.py` to use the Gradio interface. The repo includes the precomput
 
 ## Deploy on Streamlit Community Cloud
 
-Select this repository, branch `main`, and main file `streamlit_app.py`. Use Python 3.12 in Advanced settings. Add a top-level secret named `HF_TOKEN` with permission to call Hugging Face Inference Providers. The default model is `Qwen/Qwen2.5-7B-Instruct`. Set the optional `HF_CHAT_MODEL` variable to use a different model.
+Select this repository, branch `main`, and main file `streamlit_app.py`. Use Python 3.12 in Advanced settings. Add a top-level secret named `HF_TOKEN` with permission to call Hugging Face Inference Providers. The default model is `meta-llama/Llama-3.1-8B-Instruct`. Set the optional `HF_CHAT_MODEL` variable to use a different model.

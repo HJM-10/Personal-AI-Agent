@@ -39,7 +39,7 @@ def ask(question, mode):
     if not hits:
         return UNKNOWN, evidence
     token = os.environ.get("HF_TOKEN", "").strip()
-    model = os.environ.get("HF_CHAT_MODEL", "Qwen/Qwen2.5-7B-Instruct")
+    model = os.environ.get("HF_CHAT_MODEL", "meta-llama/Llama-3.1-8B-Instruct")
     if not token:
         return "Answer generation is offline. You can read the retrieved notes below.", evidence
     payload = json.dumps({
