@@ -1,0 +1,9 @@
+--extra-index-url https://download.pytorch.org/whl/cpu
+gradio==5.49.1
+streamlit==1.50.0
+huggingface-hub==0.36.0
+numpy==2.2.6
+rank-bm25==0.2.2
+sentence-transformers==5.1.2
+torch==2.8.0+cpu; sys_platform == "linux"
+transformers==4.57.1

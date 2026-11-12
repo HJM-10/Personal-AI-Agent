@@ -1,0 +1,7 @@
+.env
+.env.*
+.streamlit/secrets.toml
+.publish-clone/
+.venv/
+.hf-cache/
+__pycache__/
