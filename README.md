@@ -1,10 +1,18 @@
+---
+title: Huzaifa Jayyad Mirza Digital Clone
+sdk: static
+app_file: index.html
+---
+
 # Huzaifa Jayyad Mirza · Digital Clone
 
 This is an AI clone, not the real person.
 
+[Open the live Streamlit demo](https://personal-ai-agent-e2puh6qh2qhypahnn4pjcl.streamlit.app/)
+
 ## Knowledge base
 
-The six Markdown documents are based on Huzaifa's personal accounts. The bio and FAQ cover factual details and his voice. The Light CI/CD and Spend Trial write-ups distinguish completed work from future plans. The interests and UMT advice pieces cover opinions and longer first-person experiences.
+The six Markdown documents are based on Huzaifa's personal accounts. The bio and FAQ cover factual details and his voice. The Lite CICD and Spend Trial write-ups distinguish completed work from future plans. The interests and UMT advice pieces cover opinions and longer first-person experiences.
 
 ## Retrieval and evaluation
 
@@ -12,7 +20,7 @@ The app indexed 17 overlapping chunks. BM25 matches exact words, while dense ret
 
 | Question | BM25 | Dense | Hybrid | Best mode and why |
 | --- | --- | --- | --- | --- |
-| What did I implement with Nixpacks? | faq:2, faq:6, faq:1 | projects:1, faq:7, faq:6 | faq:6, projects:1, faq:7 | Dense. The first passage describes the owner's implementation directly. |
+| What did I implement with Nixpacks? | faq:2, faq:6, faq:7 | faq:7, projects:1, faq:6 | faq:7, faq:6, projects:1 | Dense and Hybrid tie. Both rank the answer about the owner's implementation first. |
 | Academic transition surprises? | No hits | bio:2, umt-student-advice:1, faq:3 | bio:2, umt-student-advice:1, faq:3 | Dense and Hybrid tie. The relevant assessment stories appear at ranks two and three. |
 | What made me build Spend Trial? | spend-trial:1, umt-student-advice:2, faq:5 | spend-trial:1, umt-student-advice:2, faq:5 | spend-trial:1, umt-student-advice:2, faq:5 | Tie. The top passage explains the budgeting problem. |
 | Why do I enjoy Cyber Forensics? | technology-interests:1, faq:3, faq:4 | technology-interests:1, faq:4, faq:3 | technology-interests:1, faq:3, faq:4 | Tie at rank one. The interests piece explains the appeal of reconstructing incidents. |

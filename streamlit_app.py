@@ -9,7 +9,7 @@ st.title("Huzaifa Jayyad Mirza")
 st.info("This is an AI clone, not the real person.")
 
 with st.form("question_form"):
-    question = st.text_input("Question", placeholder="What did you build for Light CI/CD?")
+    question = st.text_input("Question", placeholder="What did you build for Lite CICD?")
     mode = st.radio("Retrieval mode", MODES, index=2, horizontal=True)
     submitted = st.form_submit_button("Ask", type="primary")
 

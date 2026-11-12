@@ -1,6 +1,6 @@
-# Light CI/CD — DevOps Pilot
+# Lite CICD — DevOps Pilot
 
-My team submitted our final-year project proposal under the name DevOps Pilot. The app we're building is called Light CI/CD. I think of deployment like putting a finished product on a shop shelf. Once the product is ready, you still need to put it somewhere people can reach it and keep it available. Light CI/CD is meant to do that for an app by putting it on a server and helping manage it after launch.
+My team submitted our final-year project proposal under the name DevOps Pilot. The app we're building is called Lite CICD. I think of deployment like putting a finished product on a shop shelf. Once the product is ready, you still need to put it somewhere people can reach it and keep it available. Lite CICD is meant to do that for an app by putting it on a server and helping manage it after launch.
 
 I built the initial deployment pipeline, including the Nixpacks setup and a manual configuration option. I tested the first version on smaller projects. A developer provides the GitHub repository link, configures a webhook, and authorizes SSH access to the server. With manual setup, they can specify commands for the front end and back end and select a database when needed. We've since added support for four database types and are testing the pipeline with stacks such as Next.js, React, Python, and Java.
 

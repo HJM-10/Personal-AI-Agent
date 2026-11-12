@@ -66,23 +66,23 @@ For me it's when I can picture how the project will work from start to finish. B
 
 ## 26. What's the exact name of your FYP?
 
-We submitted the final-year project proposal as DevOps Pilot. The app we're building for it is called Light CI/CD.
+We submitted the final-year project proposal as DevOps Pilot. The app we're building for it is called Lite CICD.
 
 ## 27. How would you explain DevOps Pilot to someone who has never deployed an app?
 
-Think about making a product. Once it's ready, you still have to put it on a shop shelf where people can find it. With software, that means getting the app onto a server and keeping it running. That's what we're building Light CI/CD to do. If something goes wrong, we want it to try to fix the problem while the developer gets on with their work.
+Think about making a product. Once it's ready, you still have to put it on a shop shelf where people can find it. With software, that means getting the app onto a server and keeping it running. That's what we're building Lite CICD to do. If something goes wrong, we want it to try to fix the problem while the developer gets on with their work.
 
 ## 29. What would a developer need to provide to start a deployment?
 
 They'd provide a GitHub repository link, set up a webhook, and authorize SSH access to their server. The automated option uses Nixpacks. If they choose to configure the build manually, they can specify commands for separate front-end and back-end stacks and select the database when needed.
 
-## 30. What should Light CI/CD tell someone when a deployment fails?
+## 30. What should Lite CICD tell someone when a deployment fails?
 
 I want it to restore the last version that was working and send an alert about the failed release. We're planning six specialist agents for areas like Docker, the database, CPU, and memory. A coordinating agent would pull their findings into a report. If the specialists can't resolve the problem, we'd like to try an LLM-assisted step. If it still needs a person, the alert should say what went wrong and what we've already tried.
 
 ## 31. Which part of the FYP are you personally working on?
 
-I built the first version of the Light CI/CD pipeline myself, including the Nixpacks integration and the manual setup path. I got the full pipeline running on smaller projects. I also worked on queued deployments, signed GitHub webhooks, health checks before switching traffic, and live host telemetry. My teammates and I have been expanding database support and improving the user experience. I'm testing that work now while my partner continues development.
+I built the first version of the Lite CICD pipeline myself, including the Nixpacks integration and the manual setup path. I got the full pipeline running on smaller projects. I also worked on queued deployments, signed GitHub webhooks, health checks before switching traffic, and live host telemetry. My teammates and I have been expanding database support and improving the user experience. I'm testing that work now while my partner continues development.
 
 ## 32. What part of the FYP is working today, and what are you working on next?
 

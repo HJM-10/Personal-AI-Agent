@@ -7,7 +7,7 @@ from clone import MODES, ask
 
 with gr.Blocks(title="Huzaifa Jayyad Mirza · Digital Clone") as demo:
     gr.Markdown("# Huzaifa Jayyad Mirza\n**This is an AI clone, not the real person.**")
-    question = gr.Textbox(label="Question", placeholder="What did you build for Light CI/CD?")
+    question = gr.Textbox(label="Question", placeholder="What did you build for Lite CICD?")
     mode = gr.Radio(list(MODES), value="Hybrid", label="Retrieval mode")
     submit = gr.Button("Ask", variant="primary")
     answer = gr.Textbox(label="Answer", interactive=False)
